@@ -1,0 +1,32 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    color: grey;
+}
+
+
+.app-container {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    height: 100vh;
+}
+
+.content {
+    margin: 0 auto;
+    vertical-align: middle;
+    position: relative;
+    top: 250px;
+}
+
+.content span {
+    display: block
+}

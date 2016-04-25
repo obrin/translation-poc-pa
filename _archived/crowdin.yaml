@@ -1,0 +1,12 @@
+project_identifier: pucky
+api_key: f20c36e172ad4a6774fb7a7d71915192                          #can be found in your project settings page
+base_path: /
+
+files:
+  -
+    source: '/locales/en/*.json'                                    #source files filter
+    translation: '/locales/%two_letters_code%/%original_file_name%' #where translations live
+
+  -
+    source: '/locale/en/**/*.po'
+    translation: '/locale/%two_letters_code%/LC_MESSAGES/%original_file_name%'
