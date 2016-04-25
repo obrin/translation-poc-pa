@@ -1,0 +1,14 @@
+phraseapp:
+  access_token: 7db6b72d9a6dc1d0209c4529689fd21d688782f92967fb7003a18bb387566545
+  project_id: 3e9284b98824286bbf0028935ea71764
+  file_format: nested_json
+  push:
+    sources:
+    - file: ./locales/<locale_name>.json
+      params:
+        file_format: nested_json
+  pull:
+    targets:
+    - file: ./locales/<locale_name>.json
+      params:
+        file_format: nested_json
