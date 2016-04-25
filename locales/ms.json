@@ -1,8 +1,11 @@
 {
-  "messages" : {
-    "title" : "iFlix Terjemahan POC",
-    "description" : "Jom main",
-    "message" : "Ini adalah bagaimana kita melakukannya",
-    "error" : "Oooops di sini kita pergi lagi"
+  "messages": {
+    "description": "Jom main",
+    "error": "Oooops di sini kita pergi lagi",
+    "message": "Ini adalah bagaimana kita melakukannya",
+    "title": "iFlix Terjemahan POC"
+  },
+  "phraseapp": {
+    "message": "Ini adalah ujian"
   }
 }
